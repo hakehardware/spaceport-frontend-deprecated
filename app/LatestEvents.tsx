@@ -49,7 +49,7 @@ const LatestEvents = () => {
                                     <Flex
                                         direction="column"
                                         align="start"
-                                        gap="2"
+                                        gap="1"
                                     >
                                         <Text weight="bold">{event.event_name}</Text>
                                         <Text >
