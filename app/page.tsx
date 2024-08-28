@@ -6,11 +6,14 @@ import PlottingSectors from './PlottingSectors'
 
 export default function Home() {
     return (
-        <Grid columns={{ initial: '1', md: '2' }} gap="5">
-            <Flex direction="column" gap="5">
-                <PlottingFarms />
-                <PlottingSectors />
-            </Flex>
+        // <Grid columns={{ initial: '1', md: '2' }} gap="5">
+        //     <Flex direction="column" gap="5">
+        //         <PlottingFarms />
+        //         <PlottingSectors />
+        //     </Flex>
+        //     <LatestEvents />
+        // </Grid>
+        <Grid columns="1" gap="5">
             <LatestEvents />
         </Grid>
     )
